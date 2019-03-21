@@ -1,0 +1,13 @@
+.signupform {
+  width: 150px;
+  clear: both;
+}
+
+.signupform input {
+  width: 100%;
+  clear: both;
+}
+
+#submitbutton {
+  background-color: lightgrey;
+}

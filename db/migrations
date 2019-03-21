@@ -1,0 +1,17 @@
+psql postgres
+
+create database speedy_service
+
+\c speedy_service
+
+create table users(id primary serial key, username varchar(60), password varchar(60), email varchar(60))
+
+----------------
+
+psql postgres
+
+create database speedy_service_test
+
+\c speedy_service_test
+
+create table users(id primary serial key, username varchar(60), password varchar(60), email varchar(60))
